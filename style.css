@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:rgb(184, 178, 178);
+    display: flex;
+    justify-content: center;
+}
+
+
+header #header1{
+    list-style: none;
+    padding: 5%;
+    display: flex;
+    gap: 20%;
+}
+
+
+header #header1 li  a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+header #header1 li  a:hover{
+   
+   
+    color: rgb(249, 246, 241);
+}
+
+main{
+    height: 400px;
+}
+
+
+footer{
+    background-color:rgb(184, 178, 178);
+
+    display: flex;
+    justify-content: center;
+}
+
+footer #social{
+    list-style: none;
+    padding: 5%;
+    display: flex;
+    gap: 20%;
+}
+
+footer #social li  a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer #social li  a:hover{
+   
+    color: wheat;
+}
